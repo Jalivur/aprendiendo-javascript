@@ -17,4 +17,4 @@ function factorial(n) {
   }
 
 document.write(`<p class="factorial">El factorial de ${numero1} es <b>${factorial(numero1)}</b> <br></p>`);
-document.write(`<p class="factorial">El factorial de ${numero2} es <b>${factorial(numero2)}</b></p>`);
+document.write(`<p class="factorial">El FACTORIAL de ${numero2} es <b>${factorial(numero2)}</b></p>`);
