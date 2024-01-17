@@ -1,0 +1,22 @@
+.welcome{
+    color:rgb(34, 153, 233);
+    text-shadow: 2px 3px 5px #fafa;
+    text-align: center;
+    font-size: 5em;
+}
+#parrafo1{
+    align-content: flex-start;
+    text-align: center;
+    color:indigo;
+    border:dashed;
+    border-radius: 5px;
+    width: auto;
+}
+.factorial{
+    align-content: flex-start;
+    text-align:center;
+    color:black;
+    border:solid;
+    border-radius: 5px;
+    width: auto;
+}
