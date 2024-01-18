@@ -9,7 +9,7 @@
 <body>
     <h1 class="welcome">Bienbenido</h1>
     <div>
-        <div id="input">
+        <form id="input">
             <label for="name">Nombre</label>
             <br>
             <input type="text" id="name">
@@ -22,8 +22,8 @@
             <br>
             <input type="number" id="number2" value="0">
             <br>
-            <button onclick="update()">Actualizar</button>
-        </div>
+            <input type="button" onclick="update()" value="Actualizar">
+        </form>
         <br>
         <div id="results">
             <snap id="result1"></snap>
