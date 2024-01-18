@@ -8,6 +8,29 @@
 </head>
 <body>
     <h1 class="welcome">Bienbenido</h1>
+    <div>
+        <div id="input">
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="number1">Numero1</label>
+            <br>
+            <input type="number" id="number1" value="0">
+            <br>
+            <label for="number2">Numero2</label>
+            <br>
+            <input type="number" id="number2" value="0">
+            <br>
+            <button onclick="update()">Actualizar</button>
+        </div>
+        <br>
+        <div id="results">
+            <snap id="result1"></snap>
+            <snap id="result2"></snap>
+            <snap id="result3"></snap>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
