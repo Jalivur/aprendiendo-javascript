@@ -4,19 +4,38 @@
     text-align: center;
     font-size: 5em;
 }
-#parrafo1{
-    align-content: flex-start;
+#input{
+    color:rgb(22, 41, 54);
+    text-shadow: 2px 3px 5px #fafa;
     text-align: center;
+    width: auto;
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#parrafo1{
     color:indigo;
     border:dashed;
     border-radius: 5px;
+    text-align: center;
+    padding: 3px 3px;
+    font-size: 2em;
     width: auto;
+
 }
+
 .factorial{
-    align-content: flex-start;
-    text-align:center;
-    color:rgb(39, 108, 18);
+
+    color:indigo;
     border:solid;
     border-radius: 5px;
+    text-align: center;
+    padding: 3px 3px;
+    font-size: 2em;
     width: auto;
+
 }
