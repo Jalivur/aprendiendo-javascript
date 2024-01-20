@@ -1,8 +1,11 @@
 .welcome{
-    color:rgb(34, 153, 233);
-    text-shadow: 2px 3px 5px #fafa;
+    display: block;
+    flex-direction: column;
+    color:hsla(258, 76%, 43%, 0.814);
+    font-size: 9em;
     text-align: center;
-    font-size: 5em;
+    text-shadow: 2px 3px 5px #fafa;
+    width: 100%;
 }
 #input{
     color:rgb(22, 41, 54);
@@ -26,6 +29,11 @@
     font-size: 2em;
     width: auto;
 
+}
+.parrafo{
+    color: red;
+    display: inline-block;
+    text-decoration-thickness: auto;
 }
 
 .factorial{
